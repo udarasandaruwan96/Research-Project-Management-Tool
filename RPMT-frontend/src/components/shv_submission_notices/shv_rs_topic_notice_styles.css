@@ -1,0 +1,57 @@
+ .shv_ul {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 40;
+    font-size: larger;
+    font-variant-position: normal;
+  }
+
+  .ssCard{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 1500px;
+  }
+
+  .shv_li {
+    padding: 10px;
+    margin: 30px;
+    width: 250px;
+    max-width: 250px;
+    max-height: 400px;
+    list-style-type: decimal;
+    justify-content: flex-start;
+  }
+ 
+  .shv_card {
+    margin: auto;
+    padding: 1px;
+    /* box-shadow: 5px 5px 10px rgb(221, 0, 255); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: blue;
+    
+    /* align-items: flex-start;
+    align-content: flex-start; */
+  }
+  /* .card > img {
+    width: 100%;
+    height: 50%;
+  }
+  .card article {
+    padding: 5px;
+  }
+  .card h3 {
+    padding: 4px;
+  }
+  
+  .card p {
+    padding: 3x;
+  } */
+  

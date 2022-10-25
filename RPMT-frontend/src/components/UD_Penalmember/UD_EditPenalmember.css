@@ -1,0 +1,260 @@
+/*/////// Title /////////*/
+.ud_edit_Penalmeber_Form1 {
+  top: 20px;
+  left: 20px;
+  width: 980px;
+  height: 600px;
+  top: 58px;
+  left: 35px;
+  background-color: #c4c4c4;
+  border-radius: 30px;
+  color: rgb(158, 131, 131);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ud_edit_Penalmeber_title {
+  position: absolute;
+  left: 16px;
+  bottom: 528px;
+  color: rgb(22, 16, 16);
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+/*//////////Second layer form/////////////*/
+
+.ud_edit_Penalmeber_form2 {
+  position: relative;
+  width: 960px;
+  height: 500px;
+  margin-left: -5px;
+  top: 10px;
+  background: #f4eaea;
+  border: 3px solid #000105;
+  box-sizing: border-box;
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.56);
+  border-radius: 45px;
+}
+
+/*//////////////////////*/
+.ud_edit_Penalmeber_name1 {
+  margin-left: 60px;
+  position: absolute;
+  margin-top: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 21px;
+  color: #0a0505;
+}
+
+.ud_edit_Penalmeber_box1 {
+  margin-left: 60px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  width: 570px;
+  height: 35px;
+  background: #c4c4c4;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+/*//////////////////////*/
+.ud_edit_Penalmeber_name2 {
+  margin-left: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 21px;
+  color: #0e0606;
+}
+
+.ud_edit_Penalmeber_box2 {
+  margin-left: 5px;
+  margin-bottom: 50px;
+  right: -0px;
+  left: -20px;
+  width: 110px;
+  height: 30px;
+  background: #c4c4c4;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+/*//////////////////////*/
+.ud_edit_Penalmeber_name3 {
+  margin-left: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 21px;
+  color: #080404;
+}
+
+.ud_edit_Penalmeber_box3 {
+  position: relative;
+  margin-left: 28px;
+  right: 20px;
+  padding: 13px;
+  width: 100px;
+  height: 8px;
+  background: #c4c4c4;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+/*//////////////////////*/
+.ud_edit_Penalmeber_name4 {
+  margin-left: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 21px;
+  color: #0e0606;
+}
+
+.ud_edit_Penalmeber_box4 {
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 60px;
+  right: 20px;
+  padding: 13px;
+  width: 100px;
+  height: 8px;
+  background: #c4c4c4;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+/*//////////////////////*/
+.ud_edit_Penalmeber_name5 {
+  margin-left: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 21px;
+  color: #140909;
+}
+
+.ud_edit_Penalmeber_box5 {
+  position: relative;
+  margin-left: 30px;
+  right: 20px;
+  padding: 13px;
+  width: 170px;
+  height: 6px;
+  background: #c4c4c4;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+/*//////////////////////*/
+.ud_edit_Penalmeber_name6 {
+  margin-top: -15px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 21px;
+  color: #0c0606;
+}
+
+.ud_edit_Penalmeber_box6 {
+  position: relative;
+  margin-left: 80px;
+  margin-top: -20px;
+  right: 20px;
+  padding: 13px;
+  width: 570px;
+  height: 30px;
+  background: #c4c4c4;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+/*//////////////////////*/
+.ud_edit_Penalmeber_name7 {
+  margin-left: 60px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 21px;
+  color: #0e0606;
+}
+
+.ud_edit_Penalmeber_box7 {
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 60px;
+  right: 20px;
+  padding: 13px;
+  width: 100px;
+  height: 8px;
+  background: #c4c4c4;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+/*Previous button*/
+.ud_edit_Penalmeber_Backbutton {
+  height: 35px;
+  width: 120px;
+  top: 470px;
+  margin-left: 660px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.ud_edit_Penalmeber_Backbutton:hover {
+  background-color: red;
+}
+
+/*Save Penalmeber Details button*/
+.ud_edit_Penalmeber_Savebutton {
+  height: 35px;
+  width: 115px;
+  top: 400px;
+  left: 760px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.ud_edit_Penalmeber_Savebutton:hover {
+  background-color: red;
+}

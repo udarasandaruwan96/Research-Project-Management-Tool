@@ -1,0 +1,89 @@
+.SupervisorLoginmain {
+  height: 84vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SupervisorLoginlogin {
+  width: 70%;
+  height: 80%;
+  border-radius: 40px;
+  display: flex;
+}
+
+.SupervisorLoginleft {
+  height: 100%;
+  width: 35%;
+  background-color: #142674;
+  border-radius: 40px 0px 0px 40px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.SupervisorLoginright {
+  height: 100%;
+  width: 65%;
+  border-radius: 0px 40px 40px 0px;
+  background-image: url("../../assets/istockphoto-157533406-170667a.jpg");
+  background-size: 105%;
+  background-position: center;
+  border: 2px solid black;
+}
+
+.SupervisorLoginloginTitle {
+  position: absolute;
+  left: 33%;
+  top: 8%;
+}
+
+.SupervisorLoginform {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  padding: 0px 40px;
+}
+
+.SupervisorLoginform h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-top: 30px;
+  margin-left: 2px;
+}
+
+.SupervisorLoginform input {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  width: 70%;
+}
+
+.SupervisorLoginbtngroup {
+  position: absolute;
+  bottom: 6%;
+  left: 12%;
+}
+
+.SupervisorLoginbtngroup .SupervisorLoginloginlink {
+  color: white;
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.SupervisorLoginbtngroup .SupervisorLoginloginlink span {
+  color: #ffd600;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.SupervisorLoginbtngroup .SupervisorLoginbtn {
+  background-color: #d03939;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.SupervisorLoginbtngroup .SupervisorLoginbtn:hover {
+  background-color: rgb(63, 49, 49);
+}

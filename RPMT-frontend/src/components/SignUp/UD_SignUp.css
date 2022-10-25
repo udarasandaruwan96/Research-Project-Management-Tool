@@ -1,0 +1,130 @@
+.UDsmain {
+  height: 108vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.UDssignup {
+  width: 70%;
+  height: 84%;
+  border-radius: 40px;
+  display: flex;
+}
+
+.UDsrightSignup {
+  height: 100%;
+  width: 45%;
+  background-color: #1b2d80;
+  border-radius: 0px 40px 40px 0px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.UDsleftSignup {
+  height: 100%;
+  width: 56%;
+  border-radius: 40px 0px 0px 40px;
+  background-image: url("../../assets/login-monitor-smartphone-tablet.jpg");
+  background-size: 125%;
+  background-position: center;
+  border: 2px solid black;
+  background-repeat: no-repeat;
+}
+
+.UDssignupTitle {
+  position: absolute;
+  left: 30%;
+  top: 2%;
+}
+
+.UDssignupform {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 100%;
+  padding: 0px 40px;
+}
+
+@media (max-width: 1366px) {
+  .UDsUDssignupform {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 100%;
+    padding: 0px 40px;
+  }
+}
+
+.UDssignupform h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-top: 12px;
+  margin-left: 2px;
+}
+
+.UDssignupform input {
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+}
+
+.UDsrightSignup .UDsbtngroup {
+  position: absolute;
+  bottom: 4%;
+  left: 35%;
+}
+
+.UDsrightSignup .UDsbtngroup .UDssignup {
+  color: white;
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.UDsrightSignup .UDsbtngroup .UDssignup span {
+  color: #ffd600;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.UDsrightSignup .UDsbtngroup .UDsbtn {
+  background-color: #d03939;
+  width: 150%;
+  text-transform: uppercase;
+}
+
+.UDsrightSignup .UDsbtngroup .UDsbtn:hover {
+  background-color: rgb(58, 47, 47);
+}
+
+.UDssignupform .UDsinputgroup {
+  display: flex;
+}
+
+.UDssignupform .UDsinputgroupsecond {
+  flex-basis: 47%;
+}
+
+@media (max-width: 1366px) {
+  .UDssignupform .UDsinputgroupsecond {
+    flex-basis: 36%;
+  }
+}
+
+.UDssignupform .UDssignuplink {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25%;
+  font-weight: normal;
+  font-size: 0.7em;
+  margin: 5px;
+}
+
+.UDssignuplink span {
+  color: #ffd600;
+  margin-left: 5px;
+  font-weight: bold;
+}

@@ -1,0 +1,184 @@
+.MSUD_row {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/*---------Form1---------------*/
+.MSud_MStudent_Form1 {
+  top: 20px;
+  left: 20px;
+  width: 1050px;
+  height: 80vh;
+  top: 58px;
+  left: 10px;
+  background-color: #e6f6df;
+  border-radius: 30px;
+  color: rgb(158, 131, 131);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/*----------------Title-------*/
+.MSud_MStudent_title {
+  position: absolute;
+  left: 50px;
+  bottom: 515px;
+  color: rgb(22, 16, 16);
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+/*---------Form2---------------*/
+.MSud_MStudent_Form2 {
+  width: 1050px;
+  height: 475px;
+  background-color: #383333;
+  color: rgb(187, 167, 167);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/*------search button-------*/
+
+.MSud_MStudent_Search {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.MSud_MStudent_Search_name {
+  height: 30px;
+  width: 250px;
+  background-color: #e6f6df;
+  color: rgb(9, 8, 8);
+  border: 2px solid rgb(0, 85, 255);
+  border-radius: 17px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.MSud_MStudent_Search_name:hover {
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.MSud_MStudent_search_Button {
+  position: relative;
+  margin-left: -40px;
+  top: 3px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  width: 30px;
+  height: 30px;
+}
+.MSud_MStudent_search_Button:hover {
+  color: #ff0000;
+}
+
+/*-------row--color-----*/
+
+.MSud_MStudent_cellColor {
+  color: rgb(9, 9, 9) !important;
+}
+
+.MSud_MStudent_headcolor {
+  border: 1px solid #00ff75;
+  border-radius: 5px;
+}
+
+/**------Edit---icon----***/
+.MSud_MStudent_Edit_Icon5 {
+  color: rgb(0, 60, 255) !important;
+  cursor: pointer;
+  background-color: #c04ddd;
+}
+.MSud_MStudent_Edit_Icon5:hover {
+  color: rgb(190, 16, 16) !important;
+}
+.MSud_MStudent_Edit_Icon6 {
+  color: rgb(0, 60, 255) !important;
+  cursor: pointer;
+  width: 50px;
+  background-color: #dbdd4d;
+}
+.MSud_MStudent_Edit_Icon6:hover {
+  color: rgb(190, 16, 16) !important;
+  background-color: #000000;
+}
+
+/*--------------/*Icon delete button------------------*/
+.MSud_MStudent_deleteIcon7 {
+  color: rgb(216, 10, 20) !important;
+  cursor: pointer;
+  background-color: #66c977;
+}
+
+.MSud_MStudent_deleteIcon7:hover {
+  color: #8ff86e !important;
+}
+
+.MSud_MStudent_deleteIcon8 {
+  color: rgb(216, 10, 20) !important;
+  cursor: pointer;
+  width: 50px;
+  background-color: #ddc34d;
+}
+
+.MSud_MStudent_deleteIcon8:hover {
+  color: #8ff86e !important;
+  background-color: #000000;
+}
+
+/*Add Student  button*/
+.MSud_MStudent_addbutton {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 2%;
+  right: 2.5%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.MSud_MStudent_addbutton:hover {
+  background-color: red;
+}
+
+/*Previous button*/
+.MSud_MStudent_back_button {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 2%;
+  left: 2.5%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.MSud_MStudent_back_button:hover {
+  background-color: red;
+}
+
+/*Pdf button*/
+.MSud_MStudent_Pdf_Button {
+  background-color: blue;
+  color: white;
+  padding: 7px 13px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 2%;
+  left: 83.1%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.MSud_MStudent_Pdf_Button:hover {
+  background-color: red;
+}

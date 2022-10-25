@@ -1,0 +1,130 @@
+.superSignupmain {
+  height: 108vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.superSignupsignup {
+  width: 70%;
+  height: 84%;
+  border-radius: 40px;
+  display: flex;
+}
+
+.superSignuprightSignup {
+  height: 100%;
+  width: 45%;
+  background-color: #1b2d80;
+  border-radius: 0px 40px 40px 0px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.superSignupleftSignup {
+  height: 100%;
+  width: 56%;
+  border-radius: 40px 0px 0px 40px;
+  background-image: url("../../assets/login-monitor-smartphone-tablet.jpg");
+  background-size: 125%;
+  background-position: center;
+  border: 2px solid black;
+  background-repeat: no-repeat;
+}
+
+.superSignupsignupTitle {
+  position: absolute;
+  left: 30%;
+  top: 2%;
+}
+
+.superSignupsignupform {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  width: 100%;
+  padding: 0px 40px;
+}
+
+@media (max-width: 1366px) {
+  .superSignupsignupform {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 100%;
+    padding: 0px 40px;
+  }
+}
+
+.superSignupsignupform h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-top: 12px;
+  margin-left: 2px;
+}
+
+.superSignupsignupform input {
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+}
+
+.superSignuprightSignup .superSignupbtngroup {
+  position: absolute;
+  bottom: 4%;
+  left: 35%;
+}
+
+.superSignuprightSignup .superSignupbtngroup .superSignupsignup {
+  color: white;
+  font-size: 0.8em;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.superSignuprightSignup .superSignupbtngroup .superSignupsignup span {
+  color: #ffd600;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.superSignuprightSignup .superSignupbtngroup .superSignupbtn {
+  background-color: #d03939;
+  width: 150%;
+  text-transform: uppercase;
+}
+
+.superSignuprightSignup .superSignupbtngroup .superSignupbtn:hover {
+  background-color: rgb(65, 49, 49);
+}
+
+.superSignupsignupform .superSignupinputgroup {
+  display: flex;
+}
+
+.superSignupsignupform .superSignupinputgroupsecond {
+  flex-basis: 47%;
+}
+
+@media (max-width: 1366px) {
+  .superSignupsignupform .superSignupinputgroupsecond {
+    flex-basis: 36%;
+  }
+}
+
+.superSignupsignupform .superSignupsignuplink {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25%;
+  font-weight: normal;
+  font-size: 0.7em;
+  margin: 5px;
+}
+
+.superSignupsignuplink span {
+  color: #ffd600;
+  margin-left: 5px;
+  font-weight: bold;
+}

@@ -1,0 +1,103 @@
+.UD_row {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.UD_Supervisormain {
+  display: flex;
+}
+
+/* Add Supervisor Details*/
+.UD_addSupervisor {
+  width: 15vw;
+  height: 15vw;
+  margin: 0px 60px;
+  border-radius: 20px;
+  background-image: url("../../assets/addsupplier.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  border: 4px solid darkblue;
+  transition: 0.5s ease;
+}
+
+.UD_Supervisorbutton {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+}
+
+/*Genarate Report*/
+.UD_Supervisorreport {
+  width: 15vw;
+  height: 15vw;
+  margin: 0px 60px;
+  border-radius: 20px;
+  background-image: url("../../assets/supreport.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 145%;
+  border: 4px solid darkblue;
+  transition: 0.5s ease;
+}
+
+.UD_Supervisorreportbutton {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+/*............................ */
+
+/*---------------------------------------------------------*/
+.UD_buttongroup h5 {
+  margin: 5px 0px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.UD_addSupervisor:hover,
+.UD_Supervisorreport:hover {
+  opacity: 80%;
+  border: 4px solid red;
+}
+
+/*Previous button*/
+.ud_Gr_back_button {
+  background-color: blue;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 7%;
+  left: 5.5%;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.ud_Gr_back_button:hover {
+  background-color: red;
+}
+/* .................................. */
+/* 
+
+.UD_Supervisor,
+.UD_manageSupervisor,
+.UD_manageorder,
+.UD_managenotice {
+  width: 40vw;
+  height: 70vh;
+  background-color: #1b1b1b;
+  border-radius: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+} */

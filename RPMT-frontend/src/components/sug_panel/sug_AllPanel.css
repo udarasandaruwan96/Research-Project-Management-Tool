@@ -1,0 +1,43 @@
+
+
+  /* #sug_table td,th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e9f2f7;
+    color: rgb(19, 10, 10);
+    border: 1px solid rgb(11, 10, 10);
+    padding: 8px;
+    }
+    #sug_table button {
+        width: 40%;
+        padding: 10px 0;
+        margin: 10px auto;
+        border-radius: 5px; 
+        border: none;
+        background: #dae0c3; 
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(10, 11, 12);
+        } */
+
+        #sug_table th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #38c8a8;
+          color: rgb(19, 10, 10);
+          border: 1px solid rgb(11, 10, 10);
+          padding: 8px;
+          }
+          #sug_table td{
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #e4faf5;
+            color: rgb(19, 10, 10);
+            border: 1px solid rgb(11, 10, 10);
+            padding: 8px;
+            }
+      
+         
